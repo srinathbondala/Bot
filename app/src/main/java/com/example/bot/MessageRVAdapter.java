@@ -86,7 +86,7 @@ public class MessageRVAdapter extends RecyclerView.Adapter {
             super(itemView);
             botTV = itemView.findViewById(R.id.response1);
             ImageView = itemView.findViewById(R.id.image);
-            ImageView.setImageResource(R.drawable.img);
+            ImageView.setImageResource(R.drawable.img_9);
         }
     }
 }

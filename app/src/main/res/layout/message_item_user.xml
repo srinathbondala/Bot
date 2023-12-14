@@ -4,6 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginStart="50dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="2dp"
+    app:cardBackgroundColor="#191C1E"
     tools:ignore="MissingDefaultResource">
 
     <LinearLayout
@@ -14,24 +18,18 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/material_dynamic_neutral95"
-            android:paddingStart="5dp"
-            android:paddingTop="5dp"
-            android:paddingBottom="15dp">
+            android:background="@drawable/button_register"
+            android:paddingBottom="5dp">
 
             <ImageView
                 android:id="@+id/image1"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="5dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/response"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@drawable/img" />
+                tools:srcCompat="@drawable/img_9" />
 
             <TextView
                 android:id="@+id/response"
@@ -39,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="TextView"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "528393676943",
+    "project_id": "clgbot-404610",
+    "storage_bucket": "clgbot-404610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528393676943:android:781a99cce5d32c48db68fa",
+        "android_client_info": {
+          "package_name": "com.example.bot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHDHUTm3Salz4Mi3CG0YGx184vKiYzPAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

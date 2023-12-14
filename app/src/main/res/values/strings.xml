@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Bot</string>
     <string name="enter_message">Enter Message</string>
+    <string name="send_a_message">Send a message</string>
+    <string name="tech_bot">Tech Bot</string>
+    <string name="todo">TODO</string>
+    <string name="_1_0_0">1.0.0</string>
 </resources>
